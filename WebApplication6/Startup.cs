@@ -45,24 +45,24 @@ namespace WebApplication6
             services
                 .AddAuthentication(o =>
                 {
-                    //o.DefaultAuthenticateScheme = "Cookie";
+                    o.DefaultAuthenticateScheme = "Cookie";
                     o.DefaultSignInScheme = "Cookie";
                 })
                 .AddCookie("Cookie")
                 .AddFacebook("Facebook", o =>
                 {
-                    o.ClientId = "729947880734922";
-                    o.ClientSecret = "42d060e65d8962e15a3ddd480c230ce5";
+                    o.ClientId = "put facebook client id here";
+                    o.ClientSecret = "put facebook client secret here";
                 })
                 .AddGoogle("Google", o =>
                 {
-                    o.ClientId = "762574578671-0fieldv302nufou2afqfu4tgt0nopdtq.apps.googleusercontent.com";
-                    o.ClientSecret = "yzXo3JOV3PsrfRoXqsso-G0K";
+                    o.ClientId = "put google client id here";
+                    o.ClientSecret = "put google client secret here";
                 })
                 .AddOAuth("Github", o =>
                 {
-                    o.ClientId = "f65ec9d979c76c9dba76";
-                    o.ClientSecret = "25dc28d5af66b21438625f4f63f084482b96a7c0";
+                    o.ClientId = "put github client id here";
+                    o.ClientSecret = "put github client secret here";
 
                     o.CallbackPath = new PathString("/github");
 

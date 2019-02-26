@@ -2,7 +2,7 @@
 
 var settings: OidcClientSettings = {
     authority: 'https://accounts.google.com',
-    client_id: '762574578671-0fieldv302nufou2afqfu4tgt0nopdtq.apps.googleusercontent.com',
+    client_id: 'put google client id here',
     redirect_uri: 'https://localhost:44389/Home2/',
     response_type: 'id_token token',
     scope: 'openid email profile',
