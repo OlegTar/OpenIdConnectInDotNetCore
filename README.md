@@ -14,7 +14,7 @@ https://github.com/settings/applications/new (redirect url is /github)
 
 4. open the OpenIdConnectInDotNetCore\WebApplication6\Scripts in console
 ```
-run "npm init" command (install node.js if this command doesn't exist)
+run "npm init" command (install nodejs if this command doesn't exist)
 run "npm install -g webpack"
 run "webpack"
 ```
