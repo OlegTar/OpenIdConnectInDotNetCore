@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@Html.ActionLink("Log in with github", "Github")
+@Html.ActionLink("Log in with Google", "Google")
+@Html.ActionLink("Log in with Facebook", "Facebook")
+@Html.ActionLink("Log out", "LogOut")
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div>User: @User.Identity.Name</div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
