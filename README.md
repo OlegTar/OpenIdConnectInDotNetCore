@@ -24,5 +24,7 @@ run "webpack"
 ```
 
 5. run the application
+you can run from Visual Studio or open the folder "C:\temp\OpenIdConnectInDotNetCore\WebApplication6" in command line
+and run "dotnet run ." command.
 
 open /Home/ (for Authorization Code Flow) or /Home2/ (for Implicit flow)
