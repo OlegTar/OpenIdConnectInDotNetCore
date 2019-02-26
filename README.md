@@ -1,4 +1,8 @@
 # OpenId Connect Example in ASP.Net Core
+0. download and install .net sdk if you don't have a Visual Studio
+
+https://dotnet.microsoft.com/download/dotnet-core/2.2
+
 1. register your applications in Google, Facebook and Github
 
 https://console.developers.google.com (redirect url is /google-signin)
